@@ -6,21 +6,13 @@ O assunto escolhido para este caderno temático é a Pilha de Protocolos TCP/IP,
 Objetivos de Estudo:
 O objetivo central deste material é transformar documentações técnicas extensas e complexas em um guia de consulta ágil e inteligente. Os objetivos específicos incluem:
 
-<ul>
 
-<li>
-** Domínio da Arquitetura: ** Consolidar o entendimento sobre o encapsulamento de dados, endereçamento IP e os mecanismos de controle de fluxo e erro do protocolo TCP.
-</li>
+**Domínio da Arquitetura:** Consolidar o entendimento sobre o encapsulamento de dados, endereçamento IP e os mecanismos de controle de fluxo e erro do protocolo TCP.
 
-<li>
 **Atualização Tecnológica:** Mapear as inovações da pilha de rede da Microsoft para 2025/2026, focando em como novas funcionalidades (como SMB over QUIC e DTrace) otimizam a latência e a segurança em redes corporativas.
-</li>
 
-<li>
  **Capacidade de Troubleshooting:** Criar uma base de conhecimento que auxilie na identificação rápida de falhas de conectividade (camadas 3 e 4), utilizando a IA para correlacionar comportamentos descritos em RFCs com problemas reais do dia a dia.
-</li>
 
- 
-</ul>
+
 
 Engenharia de Prompt Técnica: Demonstrar a habilidade de guiar modelos de linguagem para extrair dados precisos de fontes oficiais, filtrando alucinações e focando em parâmetros técnicos reais.
