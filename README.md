@@ -32,3 +32,54 @@ Core network guidance for Windows Server | Microsoft Learn: Fornece orientaçõe
 Novidades no Windows Server 2025 | Microsoft Learn: Descreve os novos recursos e aprimoramentos de segurança, desempenho e armazenamento do sistema https://learn.microsoft.com/pt-br/windows-server/get-started/whats-new-windows-server-2025
 
 Essential Network Settings and Tasks in Windows - Microsoft Support: Detalha configurações e tarefas de rede para os sistemas Windows 10 e Windows 11 https://support.microsoft.com/en-us/windows/essential-network-settings-and-tasks-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9
+
+# Dificuldade 
+
+# Resumo Estruturado do assundo 
+Este resumo estruturado detalha a suíte de protocolos TCP/IP, suas funcionalidades fundamentais e as implementações modernas encontradas no Windows 11 e Windows Server 2025.
+1. Arquitetura do Modelo TCP/IP
+O modelo TCP/IP é a base da Internet e é organizado em quatro camadas funcionais que abstraem a complexidade do hardware para as aplicações
+.
+Camada de Aplicação: É a interface visível ao usuário, onde operam protocolos como HTTP (transferência de hipertexto), FTP (arquivos) e SMTP (e-mail)
+. O HTTP, especificamente, é descrito como um protocolo extensível, simples e sem estado, que utiliza o modelo cliente-servidor para obter recursos na Web
+.
+Camada de Transporte: Responsável pela comunicação ponta a ponta entre processos utilizando portas de 16 bits para multiplexação
+.
+Camada de Internet (Inter-rede): Cria uma "rede virtual" que esconde as diferenças físicas do hardware, utilizando o protocolo IP para roteamento de pacotes
+.
+Camada de Interface de Rede: Faz a ponte com o hardware físico, como Ethernet, Wi-Fi ou redes ATM
+.
+2. Protocolos de Transporte: TCP vs. UDP
+A escolha do protocolo de transporte depende das necessidades da aplicação quanto à confiabilidade ou velocidade
+.
+TCP (Transmission Control Protocol): É orientado à conexão, garantindo que os dados cheguem em ordem, sem erros e sem duplicatas através de mecanismos de confirmação (ACK) e retransmissão
+.
+UDP (User Datagram Protocol): É um protocolo sem conexão e não confiável, que prioriza a velocidade ao não realizar controle de fluxo ou recuperação de erros, sendo ideal para streaming de vídeo ou DNS
+.
+3. O Protocolo IP e Endereçamento
+O protocolo IP é o "melhor esforço" para entrega de datagramas e evoluiu para lidar com o esgotamento de endereços
+.
+IPv4: Utiliza endereços de 32 bits, tradicionalmente divididos em classes (A, B, C, D e E), mas atualmente gerenciados via CIDR (Classless Inter-Domain Routing) para maior eficiência
+.
+IPv6: Introduzido como o sucessor do IPv4, utiliza 128 bits, permitindo um espaço de endereçamento quase ilimitado, autoconfiguração e segurança nativa com o IPsec
+.
+NAT e NAPT: Técnicas de tradução de endereços que permitem que redes privadas usem endereços públicos para acessar a internet, mascarando o IP interno
+.
+4. Modernizações no Windows 11 e Windows Server 2025
+Os sistemas operacionais recentes da Microsoft introduziram recursos avançados de rede para melhorar o desempenho e a segurança
+.
+SMB sobre QUIC: No Windows Server 2025, o compartilhamento de arquivos via SMB agora pode usar o transporte QUIC (via porta UDP 443), permitindo acesso seguro e criptografado pela internet sem necessidade de VPN
+.
+Segurança IPsec: Tanto no Windows 11 24H2 quanto no Server 2025, o protocolo de troca de chaves padrão para conexões autenticadas por certificado foi atualizado para IKEv2
+.
+DNS sobre HTTPS (DoH): O Windows 11 permite a configuração de consultas DNS criptografadas diretamente na interface de configurações, aumentando a privacidade (recurso indisponível nativamente no Windows 10)
+.
+Network ATC: Uma nova ferramenta de automação para clusters do Windows Server 2025 que simplifica a implantação de rede baseada em "intentos" do administrador
+.
+5. Componentes de Conectividade e Resolução
+DNS: Traduz nomes de hosts (como www.exemplo.com) em endereços IP
+.
+DHCP: Atribui automaticamente endereços IP e configurações de rede a dispositivos, facilitando a gestão
+.
+Roteadores e Gateways: Dispositivos que interconectam redes distintas na camada de Internet, decidindo o melhor caminho para os pacotes
+.
