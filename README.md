@@ -1,7 +1,7 @@
 # NotebookLM_redes_TCPIP_
  Caderno Temático no NotebookLM- Este projeto apresenta um guia técnico interativo desenvolvido no NotebookLM, utilizando curadoria de fontes de alto nível para explorar o funcionamento da pilha TCP/IP.
 
-O assunto escolhido para este caderno temático é a Pilha de Protocolos TCP/IP, com foco específico em sua arquitetura fundamental e nas implementações de alta performance para sistemas operacionais modernos, como o Windows Server 2025 e o Windows 11.
+O assunto escolhido para este caderno temático é a Pilha de Protocolos TCP/IP, e o uso dela na web
 
 Objetivos de Estudo:
 O objetivo central deste material é transformar documentações técnicas extensas e complexas em um guia de consulta ágil e inteligente. Os objetivos específicos incluem:
