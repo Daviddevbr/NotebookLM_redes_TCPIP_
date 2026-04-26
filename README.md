@@ -16,3 +16,13 @@ O objetivo central deste material é transformar documentações técnicas exten
 
 
 Engenharia de Prompt Técnica: Demonstrar a habilidade de guiar modelos de linguagem para extrair dados precisos de fontes oficiais, filtrando alucinações e focando em parâmetros técnicos reais.
+
+# Curadoria de Fontes
+
+RFC 1122: Requirements for Internet Hosts - Communication Layers: Este documento define os padrões e requisitos de software para as camadas de comunicação dos hosts na Internet em  https://www.rfc-editor.org/rfc/rfc793.html
+.
+TCPIP Tutorial and Technical Overview: Esta publicação da IBM funciona como um guia técnico abrangente sobre a suíte de protocolos TCP/IP e pode ser acessada através do portal ibm.com/redbooks
+.
+Uma visão geral do HTTP - HTTP | MDN: Este guia técnico sobre o funcionamento e a evolução do protocolo HTTP está disponível no portal da Mozilla em developer.mozilla.org
+.
+RFC 9293: Transmission Control Protocol (TCP): Esta é a especificação atualizada e oficial do protocolo de transporte TCP, acessível no endereço https://www.rfc-editor.org/rfc/rfc9293.pdf
