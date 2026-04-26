@@ -9,15 +9,15 @@ O objetivo central deste material é transformar documentações técnicas exten
 <ul>
 
 <li>
-<h3> Domínio da Arquitetura: Consolidar o entendimento sobre o encapsulamento de dados, endereçamento IP e os mecanismos de controle de fluxo e erro do protocolo TCP.
+**Domínio da Arquitetura:** Consolidar o entendimento sobre o encapsulamento de dados, endereçamento IP e os mecanismos de controle de fluxo e erro do protocolo TCP.
 </li>
 
 <li>
-<h2> Atualização Tecnológica:</h2> Mapear as inovações da pilha de rede da Microsoft para 2025/2026, focando em como novas funcionalidades (como SMB over QUIC e DTrace) otimizam a latência e a segurança em redes corporativas.
+**Atualização Tecnológica:** Mapear as inovações da pilha de rede da Microsoft para 2025/2026, focando em como novas funcionalidades (como SMB over QUIC e DTrace) otimizam a latência e a segurança em redes corporativas.
 </li>
 
 <li>
- <h2> Capacidade de Troubleshooting:</h2> Criar uma base de conhecimento que auxilie na identificação rápida de falhas de conectividade (camadas 3 e 4), utilizando a IA para correlacionar comportamentos descritos em RFCs com problemas reais do dia a dia.
+ **Capacidade de Troubleshooting:** Criar uma base de conhecimento que auxilie na identificação rápida de falhas de conectividade (camadas 3 e 4), utilizando a IA para correlacionar comportamentos descritos em RFCs com problemas reais do dia a dia.
 </li>
 
  
