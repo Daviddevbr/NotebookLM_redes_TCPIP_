@@ -9,7 +9,7 @@ O objetivo central deste material é transformar documentações técnicas exten
 <ul>
 
 <li>
-<h2> Domínio da Arquitetura: </h2> Consolidar o entendimento sobre o encapsulamento de dados, endereçamento IP e os mecanismos de controle de fluxo e erro do protocolo TCP.
+<blond> Domínio da Arquitetura: </blond> Consolidar o entendimento sobre o encapsulamento de dados, endereçamento IP e os mecanismos de controle de fluxo e erro do protocolo TCP.
 </li>
 
 <li>
