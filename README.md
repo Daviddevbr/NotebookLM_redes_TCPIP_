@@ -96,3 +96,31 @@ DHCP: Atribui automaticamente endereços IP e configurações de rede a disposit
 .
 Roteadores e Gateways: Dispositivos que interconectam redes distintas na camada de Internet, decidindo o melhor caminho para os pacotes
 .
+#  glossário com os principais conceitos aprendidos.
+
+## Assuntos do tema TCP/IP
+
+- Fundamentação Teórica Atualizada: Você aprendeu que o TCP/IP não é estático. Através da RFC 9293, você compreendeu a nova base normativa que rege a internet moderna, substituindo padrões de décadas atrás.
+
+- Diferenciação de Implementação: Você aprendeu a distinguir a "teoria da rede" da "prática de mercado", analisando como a Microsoft otimiza a pilha TCP no Windows 11 e Server 2025 para suportar tráfego de 100Gbps.
+
+- Novos Paradigmas de Transporte: Entendeu o papel do QUIC e do SMB over QUIC como alternativas de baixa latência e alta segurança que estão transformando o suporte N2.
+
+- Curadoria de Autoridade: Aprendeu que, para um profissional de infraestrutura, a IA só é útil se for alimentada por fontes oficiais (RFCs e Documentação de Fabricante), evitando generalismos.
+
+## Funcionalidade do notebook LM
+
+nessa parte eu busquei no gemini osconceitos de que o notebookLM utilizou para gerar e treinar o notebook com o assunto TCP/PC
+
+Glossário de Funcionalidades do NotebookLM
+- Grounding (Ancoragem): É o conceito de limitar as respostas da IA estritamente às fontes que você carregou. Isso evita "alucinações" e garante que a resposta técnica venha de documentos oficiais (como a RFC 9293).
+
+- Sources (Fontes): Documentos (PDF, Texto, Links) que servem como o "cérebro" do seu caderno. No meu projeto, utilizei fontes de autoridade da Microsoft e IETF.
+
+- Citações (Inline Citations): As marcações numeradas que a IA gera. Elas permitem que o analista clique e veja exatamente em qual parágrafo do documento a informação foi extraída.
+
+- Notebook Guide (Guia do Caderno): Painel central que gera automaticamente resumos, FAQs e o "Audio Overview" (discussão em áudio) sobre os documentos carregados.
+
+- Pinned Notes (Notas Fixadas): Espaço para salvar os melhores insights gerados pelo chat, permitindo organizar a estrutura final do projeto.
+
+LINK da IA: https://notebooklm.google.com/notebook/eaf9b4f0-8abf-4bd1-b367-ea791e43bd40 
