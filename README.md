@@ -35,6 +35,19 @@ Essential Network Settings and Tasks in Windows - Microsoft Support: Detalha con
 
 # Dificuldade 
 
+Cicatriz 01: Refinando a Arquitetura de Estados
+Prompt Inicial: "Como o TCP abre uma conexão?"
+
+Resposta obtida: Uma explicação genérica sobre o Three-Way Handshake (SYN, SYN-ACK, ACK).
+
+Dificuldade (O problema): A resposta era muito superficial para um guia de engenharia. Faltavam os nomes dos estados do kernel.
+
+Prompt Estratégico (Variação): "Com base estritamente na seção 3.5 da RFC 9293, detalhe o diagrama de transição de estados para o lado do servidor, do estado LISTEN até o ESTABLISHED, mencionando o que acontece com os números de sequência (SEQ) e reconhecimento (ACK)."
+
+Resultado: A IA entregou os detalhes técnicos precisos, permitindo mapear o comportamento do protocolo em nível de bit.
+
+Nos outros prompts a IA se comportou exelente e teve respostas bem profundas com base nas fontes
+
 # Resumo Estruturado do assundo 
 Este resumo estruturado detalha a suíte de protocolos TCP/IP, suas funcionalidades fundamentais e as implementações modernas encontradas no Windows 11 e Windows Server 2025.
 1. Arquitetura do Modelo TCP/IP
