@@ -26,3 +26,9 @@ TCPIP Tutorial and Technical Overview: Esta publicação da IBM funciona como um
 Uma visão geral do HTTP - HTTP | MDN: Este guia técnico sobre o funcionamento e a evolução do protocolo HTTP está disponível no portal da Mozilla em [developer.mozilla.org](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Guides/Overview)
 
 RFC 9293: Transmission Control Protocol (TCP): Esta é a especificação atualizada e oficial do protocolo de transporte TCP, acessível no endereço https://www.rfc-editor.org/rfc/rfc9293.pdf
+
+Core network guidance for Windows Server | Microsoft Learn: Fornece orientações sobre componentes de rede central aplicáveis ao Windows Server 2025 https://learn.microsoft.com/en-us/windows-server/networking/core-network-guide/core-network-guide-windows-server
+
+Novidades no Windows Server 2025 | Microsoft Learn: Descreve os novos recursos e aprimoramentos de segurança, desempenho e armazenamento do sistema https://learn.microsoft.com/pt-br/windows-server/get-started/whats-new-windows-server-2025
+
+Essential Network Settings and Tasks in Windows - Microsoft Support: Detalha configurações e tarefas de rede para os sistemas Windows 10 e Windows 11 https://support.microsoft.com/en-us/windows/essential-network-settings-and-tasks-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9
